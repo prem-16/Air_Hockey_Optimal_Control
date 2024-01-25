@@ -1,0 +1,14 @@
+Collecting osqp
+  Obtaining dependency information for osqp from https://files.pythonhosted.org/packages/80/0f/e9cfc005199817227e823390f9747416f6fdaad1f8b0af4a78ab06960a7a/osqp-0.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Using cached osqp-0.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: numpy>=1.7 in /home/heisenberg/miniconda3/envs/mpcrl/lib/python3.8/site-packages (from osqp) (1.24.1)
+Requirement already satisfied: scipy>=0.13.2 in /home/heisenberg/miniconda3/envs/mpcrl/lib/python3.8/site-packages (from osqp) (1.10.1)
+Collecting qdldl (from osqp)
+  Obtaining dependency information for qdldl from https://files.pythonhosted.org/packages/ac/e9/94e6b2878a488c55a0d5ab76a4bdb12d30fcfe4f98b7aa38a9ad1f433013/qdldl-0.1.7.post0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading qdldl-0.1.7.post0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.7 kB)
+Downloading osqp-0.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (299 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.0/300.0 kB 7.7 MB/s eta 0:00:00
+Downloading qdldl-0.1.7.post0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 35.0 MB/s eta 0:00:00
+Installing collected packages: qdldl, osqp
+Successfully installed osqp-0.6.3 qdldl-0.1.7.post0
