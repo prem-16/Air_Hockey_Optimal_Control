@@ -154,7 +154,7 @@ def _mujoco_fk(q, name, model, data):
 
 
 def _mujoco_jac(q, name, model, data):
-    data.qpos[:len(q)] = q
+    data.qpos[:7] = q
     dtype = data.qpos.dtype
     jac = np.empty((6, model.nv), dtype=dtype)
     jac_pos, jac_rot = jac[:3], jac[3:]
